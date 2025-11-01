@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <meta name="description" content="Course Home Page">
+    <meta name="description" content="Course Home Page that displays information about Kelsey Hansel, displays her picture, and shows the courses that are part of her current certificate. It also has a menu to view the main projects of the current course WDD 231.">
     <meta name="author" content="Kelsey Hansel">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,15 +18,15 @@
 <body>
     <header>
         <div class="name">
-            <img src="images/logo.svg" class="logo">
+            <img src="images/logo.svg" class="logo" alt="Page logo of a person.">
             <span id="myname">Kelsey Hansel</span>
         </div>
         <a id="menu" href="#"></a>
         <nav>
-            <ul class="navigation">
+            <ul class="navigation"> <!-- index.html used as place holder until those projects are started.-->
                 <li><a name="Home" href="index.html">Home</a></li>
-                <li><a name="Chamber Project" href="">Chamber Project</a></li>
-                <li><a name="Final Project" href="">Final Project</a></li>
+                <li><a name="Chamber Project" href="index.html">Chamber Project</a></li>
+                <li><a name="Final Project" href="index.html">Final Project</a></li>
             </ul>
         </nav>
     </header>
@@ -38,7 +38,7 @@
         </section>
         <section class="card aside">
             <h2>Student Photo</h2>
-            <img src="images/profile.jpg" class="profile">
+            <img src="images/profile.jpg" class="profile" alt="Picture of Kelsey Hansel.">
         </section>
         <section class="bottom">
             <h2>Web Certificate Courses</h2>
@@ -47,9 +47,9 @@
                 <li><a name="WDD Courses" id="wdd-courses" class="wdd-courses">WDD Courses</a></li>
                 <li><a name="CSE Courses" id="cse-courses" class="cse-courses">CSE Courses</a></li>
             </ul>
-            <section id="display-courses" class="display-courses">
+            <div id="display-courses" class="display-courses">
 
-            </section>
+            </div>
             <p>The total number of credits listed above is <span id="credits"></span></p>
         </section>
     </main>
