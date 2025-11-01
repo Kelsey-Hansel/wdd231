@@ -3,17 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing</title>
+    <title>Home Page</title>
+    <meta name="description" content="Course Home Page">
+    <meta name="author" content="Kelsey Hansel">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@0,100..200,100..900;1,100..200,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
 <body>
     <header>
-
+        <div class="name">
+            <img src="images/logo.svg" class="logo">
+            <span id="myname">Kelsey Hansel</span>
+        </div>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a name="Home" href="index.html">Home</a></li>
+                <li><a name="Chamber Project" href="">Chamber Project</a></li>
+                <li><a name="Final Project" href="">Final Project</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
+        <h1>Home</h1>
+        <section class="card main">
+            <h2>About Me</h2>
+            <p>I was born and raised in Kansas. I live there with my dog, Bing. I really enjoy learning programming concepts and new things. My hobbies include creative writing, painting, playing games, and crocheting. I also love listening to music, reading books/comics, and sketching concept art when I need a brake or to refocus.</p>
+        </section>
+        <section class="card aside">
+            <h2>Student Photo</h2>
+            <img src="images/profile.jpg" class="profile">
+        </section>
+        <section class="bottom">
+            <h2>Web Certificate Courses</h2>
+            <ul class="button">
+                <li><a name="All Courses" id="all-courses" class="all-courses">All Courses</a></li>
+                <li><a name="WDD Courses" id="wdd-courses" class="wdd-courses">WDD Courses</a></li>
+                <li><a name="CSE Courses" id="cse-courses" class="cse-courses">CSE Courses</a></li>
+            </ul>
+            <section id="display-courses" class="display-courses">
 
+            </section>
+            <p>The total number of credits listed above is <span id="credits"></span></p>
+        </section>
     </main>
     <footer>
-        
+        <p>&copy;<span id="currentyear"></span> | Kelsey Hansel | Kansas, United States</p>
+        <p class="last-mod">Last Modification: <span id="lastModified"></span></p>
     </footer>
 </body>
 </html>

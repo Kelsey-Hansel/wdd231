@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Advent Pro", sans-serif;
+}
+
+#menu {
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: right;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+nav {
+    color: rgb(0, 0, 0);
+}
+
+.navigation {
+    list-style: none;
+    max-width: 760px;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(13, 12, 39);
+}
+
+.navigation a:hover {
+    color: rgb(59, 142, 243);
+    text-decoration: none;
+}
+
+.navigation a:active {
+    background-color: rgb(34, 32, 100);
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header span {
+    padding: 15px;
+
+}
+
+main {
+    padding: 10px;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+footer {
+    padding: 10px 0;
+}
+
+footer p {
+    padding: 3px;
+    background-color: rgb(82, 170, 199);
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+}
+
+h2 {
+    background-color: rgb(80, 80, 121);
+    padding: 10px 45px;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    width: 30px;
+    height: auto;
+}
+
+.profile {
+    display: grid;
+    width: 8rem;
+    height: auto;
+    padding: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.card {
+    background-color: rgb(192, 229, 241);
+}
+
+.card p {
+    padding: 10px;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 1rem;
+    list-style: none;
+    padding: 25px;
+}
+
+.button li {
+    background-color: rgb(192, 229, 241);
+    border: 1px solid rgb(4, 176, 228);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.display-courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.course {
+    background-color: rgb(192, 229, 241);
+    border: 1px solid rgb(4, 176, 228);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.complete {
+    background-color: rgb(34, 158, 199);
+    border: 1px solid rgb(9, 53, 66);
+}
