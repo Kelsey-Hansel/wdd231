@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+}
+
+div {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+    margin: 0.5rem;
+    padding: 10px;
+    background-color: rgb(103, 167, 189);
+    text-align: center;
+
+}
+
+p {
+    padding: 5px;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+}
