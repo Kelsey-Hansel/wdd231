@@ -1,0 +1,40 @@
+@media screen and (min-width: 600px)
+{
+    .navigation li {
+        display: contents;
+    }
+        
+    #menu {
+        display: none;
+    }
+
+    nav { 
+        background-color: rgb(13, 12, 39);
+    }
+        
+    .navigation {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        list-style: none;
+        background-color: rgb(13, 12, 39);
+        width: 100%;
+        max-width: fit-content;
+    }
+        
+    .navigation a {
+        display: block;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+    }
+        
+    .navigation a:hover {
+        color: rgb(59, 142, 243);
+        text-decoration: none;
+    }
+
+    .navigation a:active {
+        background-color: rgb(34, 32, 100);
+    }
+}

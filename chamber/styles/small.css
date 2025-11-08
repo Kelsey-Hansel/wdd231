@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Advent Pro", sans-serif;
+    --primary-color: rgb(10, 20, 109);
+    --secondary-color: rgb(51, 51, 146);
+}
+
+header {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 24px auto 24px 44px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#menu {
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    font-size: 44px;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+nav {
+    color: rgb(255, 255, 255);
+}
+
+.navigation {
+    list-style: none;
+    max-width: 760px;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+.navigation a:hover {
+    color: rgb(59, 142, 243);
+    text-decoration: none;
+}
+
+.navigation a:active {
+    background-color: rgb(34, 32, 100);
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+main {
+    display: grid;
+    grid-gap: 1rem;
+}
+
+footer {
+    padding: 10px 0;
+}
+
+footer p {
+    padding: 3px;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-align: left;
+    font-size: large;
+    padding: 5px;
+}
+
+h2 {
+    padding: 10px;
+    text-align: left;
+}
+
+header img {
+    width: 24px;
+}
+
+div {
+    position: relative;
+}
+
+main div img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main div a {
+    text-decoration: none;
+    text-align: right;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    background-color: var(--secondary-color);
+    border: 1px solid rgb(55, 55, 243);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+section {
+    padding: 10px;
+}
