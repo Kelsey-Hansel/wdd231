@@ -1,0 +1,74 @@
+{
+    "members": [
+        {
+            "name": "Lange Real Estate",
+            "address": "1101 W Douglas Ave, Wichita, KS 67213",
+            "phoneNumber": "(316) 529-3100",
+            "websiteURL": "https://langere.com/",
+            "image": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyhCIGgtagLH8CU4DIEXQ9jenPtxsYeSAWN1nOX7PHkfOvColDbzvesZmgaZB1kzg9nL89kakw91HwggqQDsylU2tyrcF6H_6e0j-13PdOvfnPS9r4HAifzn-iGDfP5gF-ogQv3=s680-w680-h510-rw",
+            "membershipLevel": 2,
+            "tagline": "We Build.",
+            "email": "contact@langere.com"
+        },
+        {
+            "name": "Great Image Designs",
+            "address": "620 East 1st Street North, Wichita, KS 67202",
+            "phoneNumber": "(316) 267-5030",
+            "websiteURL": "gidesignswichita.net/",
+            "image": "https://oldtownwichita.com/user/listings/listing_photo_5708.jpg?1737142363",
+            "membershipLevel": 3,
+            "tagline": "We provide YOUR Great Image!",
+            "email": "greatimagedesigns@gmail.com"
+        },
+        {
+            "name": "Forge Fitness",
+            "address": "330 North Mosley Street, Wichita, KS 67202",
+            "phoneNumber": "(316) 519-9813",
+            "websiteURL": "forgefitnesswichita.com/",
+            "image": "https://oldtownwichita.com/user/listings/listing_photo_5429.jpg?1709315466",
+            "membershipLevel": 1,
+            "tagline": "Hunger for integrity, focus, and growth.",
+            "email": "miles@forgefitnesswichita.com"
+        },
+        {
+            "name": "Digital Brand Communications",
+            "address": "151 N Rock Island St #1g, Wichita, KS",
+            "phoneNumber": "(316) 932-8000",
+            "websiteURL": "digitalbrand.net/",
+            "image": "https://oldtownwichita.com/user/listings/listing_photo_3448.jpg?1573073460",
+            "membershipLevel": 2,
+            "tagline": "We make videos that Provide Solutions.",
+            "email": "ericz@digitalbrand.net"
+        },
+        {
+            "name": "Bike Walk Wichita",
+            "address": "325 Saint Francis, Wichita, KS 67202",
+            "phoneNumber": "(316) 530-2990",
+            "websiteURL": "bikewalkwichita.org/",
+            "image": "https://oldtownwichita.com/user/listings/listing_photo_5583.png?1681315127",
+            "membershipLevel": 3,
+            "tagline": "Making biking and walking safe, equitable, and appealing.",
+            "email": "info@bikewalkwichita.org"
+        },
+        {
+            "name": "Axe to Grind",
+            "address": "220 South Commerce Street, Wichita, KS 67202",
+            "phoneNumber": "(316) 213-9340",
+            "websiteURL": "axetogrind.us/",
+            "image": "https://oldtownwichita.com/user/listings/listing_photo_5440.jpg?1627320877",
+            "membershipLevel": 1,
+            "tagline": "Bringing family and fun together!",
+            "email": "inquiry@axetogrind.us"
+        },
+        {
+            "name": "B. Young Salon",
+            "address": "211 N Washington St, Wichita, KS",
+            "phoneNumber": "(316) 518-3065",
+            "websiteURL": "https://www.b-youngsalon.com/",
+            "image": "https://oldtownwichita.com/user/listings/listing_photo_3926.jpg?1573073460",
+            "membershipLevel": 2,
+            "tagline": "Great hair awaits.",
+            "email": "hello@b-youngsalon.com"
+        }
+    ]
+}

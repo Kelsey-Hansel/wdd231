@@ -7,17 +7,12 @@
     #menu {
         display: none;
     }
-
-    nav { 
-        background-color: rgb(13, 12, 39);
-    }
         
     .navigation {
         display: flex;
         justify-content: right;
         align-items: center;
         list-style: none;
-        background-color: rgb(13, 12, 39);
         width: 100%;
         max-width: fit-content;
     }
@@ -34,7 +29,30 @@
         text-decoration: none;
     }
 
-    .navigation a:active {
-        background-color: rgb(34, 32, 100);
+    header {
+        grid-template-columns: 24px auto 44px 24px;
+    }
+
+    .darkmode {
+        order: 4;
+    }
+
+    .member-list {
+        padding: 1rem;
+    }
+
+    .listing {
+        display: flex;
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .social-media {
+        align-self: center;
     }
 }
