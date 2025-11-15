@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wichita Chamber of Commerce</title>
-    <meta name="description" content="Wichita Chamber of Commerce directory page that displays overview information for the site.">
+    <meta name="description" content="Wichita Chamber of Commerce home page that displays overview information for the site.">
     <meta name="author" content="Kelsey Hansel">
-    <meta name="og:title" content="Wichita Chamber of Commerce">
-    <meta name="og:description" content="Wichita Chamber of Commerce directory page that displays overview information for the site.">
-    <meta name="og:image" content="">
+    <meta name="og:title" content="Wichita Chamber of Commerce Home">
+    <meta name="og:description" content="Wichita Chamber of Commerce home page that displays overview information for the site.">
+    <meta name="og:image" content="images/home-preview.jpg">
     <meta name="og:url" content="https://kelsey-hansel.github.io/wdd231/chamber/index.html">
     <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/home.js" defer></script>
 </head>
 
 <body>
@@ -40,36 +41,21 @@
     <main>
         <div>
             <img src="images/hero.jpg" alt="Keeper of the Plains">
-            <a href="" class="keynote">Keynote Tickets</a>
+            <a href="" class="keynote">Join Today!</a>
         </div>
         <section>
             <h2>Home</h2>
-            <div class="card events">
-                <h3>Events</h3>
+            <div class="card events" id="events">
+                
             </div>
-            <div class="card weather">
-                <h3>Weather</h3>
-                <img>
-                <ul>
-                    <li>58° F</li>
-                    <li>Clear</li>
-                    <li>High: 65°</li>
-                    <li>Low: 33°</li>
-                    <li>Humidity: 29%</li>
-                    <li>Sunrise: 7:02am</li>
-                    <li>Sunset: 5:23pm</li>
-                </ul>
+            <div class="card weather" id="weather">
+                
             </div>
-            <div class="card forecast">
-                <h3>Weather Forecast</h3>
-                <ul>
-                    <li>Today: 65°</li>
-                    <li>Sunday: 42°</li>
-                    <li>Monday: 46°</li>
-                </ul>
+            <div class="card forecast" id="forecast">
+                
             </div>
         </section>
-        <section class="businesses">
+        <section class="businesses" id="spotlight">
 
         </section>
     </main>
