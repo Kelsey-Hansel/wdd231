@@ -58,6 +58,7 @@
 
     .home {
         grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 1fr;
     }
     .home h2 {
         grid-column: 1 / 4;
