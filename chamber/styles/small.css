@@ -43,9 +43,10 @@ main div img {
     color: white;
 }
 
-section {
+.home {
     padding: 10px;
     display: grid;
+    grid-template-rows: 30px 1fr 1fr 1fr;
     grid-gap: 1rem;
 }
 
@@ -59,24 +60,29 @@ section {
 
 .weather {
     display: grid;
-    grid-template-columns: 1fr 2fr;  
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 30px 40px 50px 50px 50px;
 }
 
-.weather li {
+.weather img {
+    width: 50%;
+    height: auto;
+    grid-column: 1 / 2;
+}
+
+.weather p {
     padding: 0.3rem;
+    grid-column: 2 / 3;
 }
 
-.forecast ul {
+#condition {
+    text-transform: capitalize;
+}
+
+.forecast p {
     text-align: center;
     padding: 10px;
-}
-
-.forecast li {
     padding: 0.5rem;
-}
-
-.card ul {
-    list-style: none;
 }
 
 .social-media {
@@ -130,6 +136,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     padding: 1rem;
+    grid-gap: 1rem;
 }
 
 .layout-buttons {

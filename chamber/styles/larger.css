@@ -55,4 +55,11 @@
     .social-media {
         align-self: center;
     }
+
+    .home {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+    .home h2 {
+        grid-column: 1 / 4;
+    }
 }
