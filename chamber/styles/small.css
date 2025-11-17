@@ -14,6 +14,7 @@ h2 {
 .card h3 {
     background-color: var(--secondary-color);
     padding: 5px;
+    color: white;
 }
 
 header img {
@@ -81,7 +82,6 @@ main div img {
 
 .forecast p {
     text-align: center;
-    padding: 10px;
     padding: 0.5rem;
 }
 
