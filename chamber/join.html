@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <meta name="description" content="Wichita Chamber of Commerce join page that displays the levels of membership and asks for your business's information.">
+    <meta name="author" content="Kelsey Hansel">
+    <meta name="og:title" content="Wichita Chamber of Commerce Join Page">
+    <meta name="og:description" content="Wichita Chamber of Commerce join page that displays the levels of membership and asks for your business's information.">
+    <meta name="og:image" content="images/join-preview.jpg">
+    <meta name="og:url" content="https://kelsey-hansel.github.io/wdd231/chamber/join.html">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@0,100..200,100..900;1,100..200,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Keeper of the Plains">
+        <h1>Wichita Chamber of Commerce</h1>
+        <img src="images/dark-mode.svg" alt="Dark mode button" class="darkmode" id="darkmode">
+        <a id="menu" href="#"></a>
+        <nav>
+           <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <main class="join">
+        <div>
+            <h2 class="form-heading">Membership Application Form</h2>
+            <form id="member-join-form" method="GET" action="thankyou.html">
+                <label for="first-name">First Name <input type="text" id="first-name" name="first-name" required autocomplete="given-name"> </label>
+                <label for="last-name">Last Name <input type="text" id="last-name" name="last-name" required autocomplete="family-name"> </label>
+                <label for="org-title">Organizational Title <input type="text" id="org-title" name="org-title" autocomplete="organization-title" pattern=""> </label>
+                <label for="email">Email Address <input type="email" id="email" name="email" required autocomplete="email" placeholder="youremail@website.com"> </label>
+                <label for="mobile-number">Mobile Phone Number <input type="telephone" id="mobile-number" for="mobile-number" required autocomplete="tel-local"> </label>
+                <label for="org-name">Name of Organization or Business <input type="text" id="org-name" name="org-name" required autocomplete="organization"> </label>
+                <fieldset id="levels-membership">
+                    <legend>Membership Level</legend>
+                    <label for="non-profit"> <input type="radio" id="non-profit" name="membership-level" required> NP</label>
+                    <label for="bronze"> <input type="radio" id="bronze" name="membership-level" required> Bronze</label>
+                    <label for="silver"> <input type="radio" id="silver" name="membership-level" required> Silver</label>
+                    <label for="gold"> <input type="radio" id="gold" name="membership-level" required> Gold</label>
+                </fieldset>
+                <label for="description">Description <textarea id="description" name="description"></textarea> </label>
+                <timestamp type="hidden" id="timestamp" name="timestamp"></timestamp>
+                <label for="submit-button"> Join Here: <input type="submit" id="submit-button" name="submit-button" value="Join Now"></label>
+            </form>
+        </div>
+        <div>
+            <h2 class="level-heading">Membership Levels</h2>
+            <section id="membership-card-container">
+                <div class="level-card">
+                    <h3>Non-Profit Level</h3>
+                    <button id="open-np"> More Information </button>
+                        <dialog id="np-modal">
+                            <h4>Non-Profit Level</h4>
+                            <button id="close-np"> Close </button>
+                            <p>This is for our non-profit organizations that join us.
+                                <br> There is no fee for this level of membership.
+                                <br> Benefits include:
+                                <br> - Events on the calendar
+                                <br> - Directory Listing
+                                <br> - Home page spotlight
+                                <br> - Recognition and advertising online and around the city
+                                <br> - All events, including VIP events
+                                <br> - Special charity fundraising events
+                                <br> If this sounds like what you need, then sign up for this level.
+                            </p>
+                        </dialog>
+                </div>
+                <div class="level-card">
+                    <h3>Bronze Level</h3>
+                    <button id="open-bronze"> More Information </button>
+                        <dialog id="bronze-modal">
+                            <h4>Bronze Level</h4>
+                            <button id="close-bronze"> Close </button>
+                            <p>This is the basic membership package.
+                                <br> The annual fee is $350 for this level.
+                                <br> Benefits include:
+                                <br> - Events on the calendar
+                                <br> - Directory Listing
+                                <br> - General events
+                                <br> If this sounds like what you need, then sign up for this level.
+                            </p>
+                        </dialog>
+                </div>
+                <div class="level-card">
+                    <h3>Silver Level</h3>
+                    <button id="open-silver"> More Information </button>
+                        <dialog id="silver-modal">
+                            <h4>Silver Level</h4>
+                            <button id="close-silver"> Close </button>
+                            <p>This is the intermediate membership package.
+                                <br> The annual fee is $600 for this level.
+                                <br> Benefits include:
+                                <br> - Events on the calendar
+                                <br> - Directory Listing
+                                <br> - General and networking events
+                                <br> - Home page spotlight
+                                <br> - Job postings in events tab on home page
+                                <br> If this sounds like what you need, then sign up for this level.
+                            </p>
+                        </dialog>
+                </div>
+                <div class="level-card">
+                    <h3>Gold Level</h3>
+                    <button id="open-gold"> More Information </button>
+                        <dialog id="gold-modal">
+                            <h4>Gold Level</h4>
+                            <button id="close-gold"> Close </button>
+                            <p>This is the elite membership package.
+                                <br> The annual fee is $1,000 for this level.
+                                <br> Benefits include:
+                                <br> - Events on the calendar
+                                <br> - Directory Listing
+                                <br> - Home page spotlight
+                                <br> - Recognition and advertising online and around the city
+                                <br> - All events, including VIP events
+                                <br> If this sounds like what you need, then sign up for this level.
+                            </p>
+                        </dialog>
+                </div>
+            </section>
+        </div>
+        
+    </main>
+    <footer>
+        <section class="address">
+            <p>Wichita Chamber of Commerce</p>
+            <p>515 S. Main St., Suite 115</p>
+            <p>Wichita, KS 67202</p>
+            <p>info@wichitacc.org</p>
+            <p>(316) 123-4567</p>
+        </section>
+        <section class="social-media">
+            <a href="https://www.facebook.com"><img src="images/facebook.svg" alt="FaceBook logo and link"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram.svg" alt="Instagram logo and link"></a>
+            <a href="https://www.youtube.com"><img src="images/youtube.svg" alt="YouTube logo and link"></a>
+        </section>
+        <section class="copyright">
+            <p>WDD231 Class Project</p>
+            <p>Kelsey Hansel</p>
+            <p>&copy;<span id="currentyear"></span> | Kelsey Hansel | Kansas, United States</p>
+            <p class="last-mod">Last Modification: <span id="lastModified"></span></p>
+        </section>
+    </footer>
+</body>
+
+</html>

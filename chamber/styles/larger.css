@@ -63,4 +63,13 @@
     .home h2 {
         grid-column: 1 / 4;
     }
+
+    dialog {
+        width: 50%;
+    }
+
+    .join {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
 }
