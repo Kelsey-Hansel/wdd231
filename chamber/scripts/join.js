@@ -50,3 +50,6 @@ closeSilver.addEventListener('click', () => {
 closeGold.addEventListener('click', () => {
     closeModal(goldModal);
 });
+
+const orgTitlePattern = document.getElementById("#org-title");
+orgTitlePattern.setAttribute("pattern", "/^[a-zA-Z\-\ ]{7,}$/");

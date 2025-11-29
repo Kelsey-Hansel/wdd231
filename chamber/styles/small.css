@@ -221,6 +221,17 @@ dialog h4 {
     background-color: var(--secondary-color);
     margin: 0 auto;
     border-radius: 20px 5px;
+
+   animation: fadeColor 1s ease-in-out forwards;
+}
+
+@keyframes fadeColor {
+    from {
+        background-color: rgb(215, 247, 241);
+    }
+    to {
+        background-color: var(--secondary-color);
+    }
 }
 
 .level-card h3 {
@@ -236,4 +247,10 @@ dialog h4 {
     display: grid;
     grid-gap: 1rem;
     padding: 10px;
+}
+
+.results p {
+    padding: 15px 10px;
+    text-align: center;
+    font-weight: 500;
 }
