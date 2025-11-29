@@ -42,12 +42,12 @@
         <div>
             <h2 class="form-heading">Membership Application Form</h2>
             <form id="member-join-form" method="GET" action="thankyou.html">
-                <label for="first-name">First Name <input type="text" id="first-name" name="first-name" required autocomplete="given-name"> </label>
-                <label for="last-name">Last Name <input type="text" id="last-name" name="last-name" required autocomplete="family-name"> </label>
-                <label for="org-title">Organizational Title <input type="text" id="org-title" name="org-title" autocomplete="organization-title"> </label>
-                <label for="email">Email Address <input type="email" id="email" name="email" required autocomplete="email" placeholder="youremail@website.com"> </label>
-                <label for="mobile-number">Mobile Phone Number <input type="tel" id="mobile-number" name="mobile-number" required autocomplete="tel"> </label>
-                <label for="org-name">Name of Organization or Business <input type="text" id="org-name" name="org-name" required autocomplete="organization"> </label>
+                <label for="first-name">First Name <input type="text" id="first-name" name="first-name" required autocomplete="given-name" title="Please enter first name."> </label>
+                <label for="last-name">Last Name <input type="text" id="last-name" name="last-name" required autocomplete="family-name" title="Please enter last name."> </label>
+                <label for="org-title">Organizational Title <input type="text" id="org-title" name="org-title" autocomplete="organization-title" title="Only letters, hyphens, and spaces allowed." pattern="[a-zA-Z\\-\\s]{7,}"> </label>
+                <label for="email">Email Address <input type="email" id="email" name="email" required autocomplete="email" placeholder="youremail@website.com" title="Please enter your email."> </label>
+                <label for="mobile-number">Mobile Phone Number <input type="tel" id="mobile-number" name="mobile-number" required autocomplete="tel" title="Please enter mobile number."> </label>
+                <label for="org-name">Name of Organization or Business <input type="text" id="org-name" name="org-name" required autocomplete="organization" title="Please enter your organization name."> </label>
                 <fieldset id="levels-membership">
                     <legend>Membership Level</legend>
                     <label for="membership-level"> <input type="radio" id="non-profit" name="membership-level" required value="NP"> NP</label>
@@ -55,8 +55,8 @@
                     <label for="membership-level"> <input type="radio" id="silver" name="membership-level" required value="Silver"> Silver</label>
                     <label for="membership-level"> <input type="radio" id="gold" name="membership-level" required value="Gold"> Gold</label>
                 </fieldset>
-                <label for="description">Description <textarea id="description" name="description"></textarea> </label>
-                <timestamp type="hidden" id="timestamp" name="timestamp"></timestamp>
+                <label for="description">Description <textarea id="description" name="description" title="Please enter a short description of you organization."></textarea> </label>
+                <input type="datetime-local" id="timestamp" name="timestamp" hidden></input>
                 <label for="submit-button"> Join Here: <input type="submit" id="submit-button" name="submit-button" value="Join Now"></label>
             </form>
         </div>
