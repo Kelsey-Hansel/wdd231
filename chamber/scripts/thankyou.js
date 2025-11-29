@@ -37,4 +37,10 @@ card.appendChild(descriptionText);
 card.classList.add("results");
 container.appendChild(card);
 
-console.log(params);
+const myForm = document.querySelector("#member-join-form");
+const timestamp = document.querySelector("#timestamp");
+myForm.addEventListener("submit", function (event) {
+    const now = new Date();
+    const timestampValue = now.tpISOString();
+    timestamp.value = timestampValue;
+});

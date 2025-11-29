@@ -50,3 +50,4 @@ closeSilver.addEventListener('click', () => {
 closeGold.addEventListener('click', () => {
     closeModal(goldModal);
 });
+
