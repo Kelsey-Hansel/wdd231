@@ -254,3 +254,64 @@ dialog h4 {
     text-align: center;
     font-weight: 500;
 }
+
+#visit-message {
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.dicover-cards {
+    box-sizing: border-box;
+}
+
+.discover-places {
+    margin: 1rem 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    color: white;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "figure"
+    "description"
+    "address"
+    "button";
+}
+
+.discover-places h2 {
+    margin: 1rem 1rem;
+    grid-area: name;
+}
+
+.discover-places figure {
+    grid-area: figure;
+}
+
+.discover-places img {
+    width: 100%;
+    height: auto;
+}
+
+.discover-places figcaption {
+    margin: 1rem 1rem;
+}
+
+.discover-places p {
+    margin: 1rem 1rem;
+    grid-area: description;
+}
+
+.discover-places address {
+    margin: 1rem 1rem;
+    grid-area: address;
+}
+
+.discover-places button {
+    margin: 1rem 1rem;
+    padding: 5px;
+    grid-area: button;
+}

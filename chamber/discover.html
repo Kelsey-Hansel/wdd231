@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover</title>
-    <meta name="description" content="Wichita Chamber of Commerce join page that displays the levels of membership and asks for your business's information.">
+    <meta name="description" content="Wichita Chamber of Commerce discover page that displays places of interest in Wichita.">
     <meta name="author" content="Kelsey Hansel">
-    <meta name="og:title" content="Wichita Chamber of Commerce Join Page">
-    <meta name="og:description" content="Wichita Chamber of Commerce join page that displays the levels of membership and asks for your business's information.">
-    <meta name="og:image" content="images/join-preview.jpg">
+    <meta name="og:title" content="Wichita Chamber of Commerce Discover Page">
+    <meta name="og:description" content="Wichita Chamber of Commerce discover page that displays places of interest in Wichita.">
+    <meta name="og:image" content="images/discover-preview.jpg">
     <meta name="og:url" content="https://kelsey-hansel.github.io/wdd231/chamber/join.html">
     <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,9 +17,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@0,100..200,100..900;1,100..200,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+    <script src="data/interest-area.mjs" type="module" defer></script>
+    <script src="scripts/discover.mjs" type="module" defer></script>
 </head>
 
 <body>
@@ -32,15 +34,18 @@
            <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html" class="active">Join</a></li>
-                <li><a href="directory.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html" class="active">Discover</a></li>
             </ul> 
         </nav>
     </header>
-    <main>
-        
+    <main class="discover-cards">
+        <section id="card-container">
+            
+        </section>
     </main>
     <footer>
+        <p id="visit-message"></p>
         <section class="address">
             <p>Wichita Chamber of Commerce</p>
             <p>515 S. Main St., Suite 115</p>

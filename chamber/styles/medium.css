@@ -1,0 +1,77 @@
+@media screen and (min-width: 641px) {
+    .navigation li {
+        display: contents;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        list-style: none;
+        width: 100%;
+        max-width: fit-content;
+    }
+
+    .navigation a {
+        display: block;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .navigation a:hover {
+        color: rgb(59, 142, 243);
+        text-decoration: none;
+    }
+
+    header {
+        grid-template-columns: 24px auto 44px 24px;
+    }
+
+    .darkmode {
+        order: 4;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #visit-message {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .social-media {
+        align-self: center;
+    }
+
+    .discover-places {
+        grid-template-areas:
+        "figure name"
+        "figure description"
+        "figure address"
+        "figure button";
+    }
+
+    .discover-places img {
+        width: 300px;
+        height: auto;
+    }
+
+    .discover-places img:hover {
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.527);
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
