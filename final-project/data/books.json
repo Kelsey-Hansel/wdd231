@@ -1,0 +1,109 @@
+{
+    "books": [
+        {
+            "title": "This Wasted Land",
+            "author": "Kenton Kilgore",
+            "genre": "Thriller",
+            "description": "She's lost and alone on a desolate world of monsters never before imagined. And if they don't kill her, the witch who has her boyfriend will. Alyx is a teenaged misfit who doesn't like her mom, doesn't like school, and doesn't like being told what to do. But she does like motorcycles, vintage hard rock, and her boyfriend Sam, a misfit in his own way. When a shape-shifting witch attacks them and snatches Sam onto a ghostly train, Alyx follows, only to find herself in a hellscape an endless gray desert of lost things, places, and people, prowled by grotesque monsters never imagined by her—or you.Struggling to survive, find Sam, and return home, Alyx endures horrors and heartbreak as she learns that the witch is but a slave of the ancient, inhuman being who rules this wasted land—and who craves to take Alyx and Sam for himself.",
+            "coverImage": "images/this-wasted-land"
+        },
+        {
+            "title": "Whispers Most Foul",
+            "author": "Emma MacDonald",
+            "genre": "Dark Fantasy",
+            "description": "Rose Thenlif, the only student unable to cast spells at the elite Dunhollow Academy of Witchcraft, prefers keeping her nose in books and away from the sneers of her classmates, or the critical eyes of her headmistress mother. But when her fellow classmates begin to go missing, she finds that she alone can see their ghosts.",
+            "coverImage": "images/whispers-most-foul"
+        },
+        {
+            "title": "A Tale of Ashes",
+            "author": "Ann Dayleview",
+            "genre": "Fantasy",
+            "description": "She's hunting the story of a lifetime. But she's not the only one stalking in the dark. A Tale of Ashes is a fairy tale mash up, set in a world where all the creatures from your childhood stories live alongside humans. But these creatures are not who you remember.",
+            "coverImage": "images/tale-of-ashes"
+        },
+        {
+            "title": "The Book Thief",
+            "author": "Markus Zusak",
+            "genre": "Historical Fiction",
+            "description": "It is 1939. Nazi Germany. The country is holding its breath. Death has never been busier, and will be busier still. By her brother's graveside, Liesel's life is changed when she picks up a single object, partially hidden in the snow. It is The Gravedigger's Handbook, left behind there by accident, and it is her first act of book thievery. So begins a love affair with books and words, as Liesel, with the help of her accordian-playing foster father, learns to read. Soon she is stealing books from Nazi book-burnings, the mayor's wife's library, wherever there are books to be found.",
+            "coverImage": "images/book-thief"
+        },
+        {
+            "title": "Once Upon A Broken Heart",
+            "author": "Stephanie Garber",
+            "genre": "Romance",
+            "description": "How far would you go for happily ever after? For as long as she can remember, Evangeline Fox has believed in true love and happy endings... until she learns that the love of her life will marry another. Desperate to stop the wedding and to heal her wounded heart, Evangeline strikes a deal with the charismatic but wicked Prince of Hearts. In exchange for his help, he asks for three kisses, to be given at the time and place of his choosing. But after Evangeline's first promised kiss, she learns that bargaining with an immortal is a dangerous game—and that the Prince of Hearts wants far more from her than she'd pledged. He has plans for Evangeline, plans that will either end in the greatest happily ever after or the most exquisite tragedy.",
+            "coverImage": "images/once-upon-broken-heart"
+        },
+        {
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "genre": "Romance",
+            "description": "Pride and Prejudice has charmed generations of readers for more than two centuries. Jane Austen's much-adapted novel is famed for its witty, spirited heroine, sensational romances, and deft remarks on the triumphs and pitfalls of social convention. Author Jane Austen (1775-1817) was an English novelist whose works of social realism achieved unprecedented critical and popular success, though Austen herself remained an anonymous writer throughout her life.",
+            "coverImage": "images/pride-and-prejudice"
+        },
+        {
+            "title": "Aurora Rising",
+            "author": "Amie Kaufman",
+            "genre": "Science Fiction",
+            "description": "The year is 2380, and the graduating cadets of Aurora Academy are being assigned their first missions. Star pupil Tyler Jones is ready to recruit the squad of his dreams, but his own boneheaded heroism sees him stuck with the dregs nobody else in the Academy would touch… A cocky diplomat with a black belt in sarcasm. A sociopath scientist with a fondness for shooting her bunkmates. A smart-ass techwiz with the galaxy's biggest chip on his shoulder. An alien warrior with anger management issues. A tomboy pilot who's totally not into him, in case you were wondering.",
+            "coverImage": "images/aurora-rising"
+        },
+        {
+            "title": "",
+            "author": "",
+            "genre": "",
+            "description": "",
+            "coverImage": ""
+        },
+        {
+            "title": "",
+            "author": "",
+            "genre": "",
+            "description": "",
+            "coverImage": ""
+        },
+        {
+            "title": "",
+            "author": "",
+            "genre": "",
+            "description": "",
+            "coverImage": ""
+        },
+        {
+            "title": "",
+            "author": "",
+            "genre": "",
+            "description": "",
+            "coverImage": ""
+        },
+        {
+            "title": "",
+            "author": "",
+            "genre": "",
+            "description": "",
+            "coverImage": ""
+        },
+        {
+            "title": "",
+            "author": "",
+            "genre": "",
+            "description": "",
+            "coverImage": ""
+        },
+        {
+            "title": "",
+            "author": "",
+            "genre": "",
+            "description": "",
+            "coverImage": ""
+        },
+        {
+            "title": "",
+            "author": "",
+            "genre": "",
+            "description": "",
+            "coverImage": ""
+        }
+    ]
+}
