@@ -8,3 +8,56 @@
     margin: 0;
 }
 
+#book-container {
+    display: grid;
+
+}
+
+.book-card, .reader-card{
+    margin: 1rem 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    color: white;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas:
+    "cover title"
+    "cover author"
+    "cover genre"
+    "cover description";
+}
+
+.book-card h3, .reader-card h3 {
+    grid-area: title;
+    padding: 10px;
+}
+
+.book-card img {
+    grid-area: cover;
+    width: 150px;
+    height: auto;
+}
+
+.reader-card img {
+    grid-area: cover;
+    width: 100px;
+    height: auto;
+}
+
+.genre {
+    grid-area: genre;
+    padding: 5px 10px;
+}
+
+.author {
+    grid-area: author;
+    padding: 5px 10px;
+}
+
+.description {
+    grid-area: description;
+    padding: 5px 10px;
+    font-size: small;
+}
