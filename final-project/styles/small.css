@@ -16,17 +16,20 @@
 .book-card, .reader-card{
     margin: 1rem 1rem;
     border: 1px solid gray;
-    border-radius: 5px;
-    background-color: var(--secondary-color);
+    border-radius: 10px;
+    background-color: var(--accent-color2);
     color: white;
+    text-align: center;
+    max-width: 300px;
     overflow: hidden;
 
     display: grid;
-    grid-template-areas:
-    "cover title"
-    "cover author"
-    "cover genre"
-    "cover description";
+    grid-template-areas: 
+    "cover"
+    "title"
+    "author"
+    "genre"
+    "description";
 }
 
 .book-card h3, .reader-card h3 {
@@ -36,8 +39,9 @@
 
 .book-card img {
     grid-area: cover;
-    width: 150px;
-    height: auto;
+    width: 200px;
+    padding: 10px;
+    justify-self: center;
 }
 
 .reader-card img {
@@ -60,4 +64,9 @@
     grid-area: description;
     padding: 5px 10px;
     font-size: small;
+}
+
+#library-container {
+    display: grid;
+    justify-content: center;
 }
