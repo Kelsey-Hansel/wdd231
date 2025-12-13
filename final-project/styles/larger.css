@@ -29,7 +29,6 @@
     }
 
     .book-card, .reader-card {
-        max-width: fit-content;
         padding: 5px;
         display: grid;
         grid-template-areas:
@@ -37,6 +36,10 @@
         "cover author"
         "cover genre"
         "cover description";
+    }
+
+    .book-card {
+        max-width: fit-content;
     }
 
     .book-card img, .reader-card img {
@@ -47,5 +50,12 @@
     #library-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .form-page {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1rem;
+        padding: 2rem;
     }
 }

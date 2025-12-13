@@ -4,9 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find-A-Book</title>
-    <meta name="description" content="Landing page for Find-A-Book with book blind date.">
-    <meta name="author" contetn="Kelsey Hansel">
+    <title>Library</title>
+    <meta name="description" content="Book directory page for Find-A-Book with a selection of books.">
+    <meta name="author" content="Kelsey Hansel">
+    <meta name="og:title" content="Find-A-Book Book Directory Page">
+    <meta name="og:description" content="Book directory page for Find-A-Book with a selection of books.">
+    <meta name="og:image" content="images/directory-preview.jpg">
+    <meta name="og:url" content="https://kelsey-hansel.github.io/wdd231/final-project/directory.html">
     <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,10 +37,13 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <button id="fanstasy-sort" value="Fantasy">Fantasy</button>
-        <button id="dsytopian-sort" value="Dystopian">Dystopian</button>
-        <button id="romance-sort" value="Romance">Romance</button>
+    <main class="library">
+        <div class="library-buttons">
+            <button id="all-books">All Books</button>
+            <button id="fantasy-sort">Fantasy</button>
+            <button id="dystopian-sort">Dystopian</button>
+            <button id="romance-sort">Romance</button>
+        </div>
         <section id="library-container">
 
         </section>

@@ -80,7 +80,6 @@ nav {
 main {
     display: grid;
     grid-gap: 1rem;
-    background-color: var(--accent-color1);
 }
 
 h1 {

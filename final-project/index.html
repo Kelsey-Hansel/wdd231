@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find-A-Book</title>
-    <meta name="description" content="Landing page for Find-A-Book with book blind date.">
-    <meta name="author" contetn="Kelsey Hansel">
+    <meta name="description" content="Landing page for Find-A-Book with a book blind date.">
+    <meta name="author" content="Kelsey Hansel">
+    <meta name="og:title" content="Find-A-Book Home Page">
+    <meta name="og:description"
+        content="Landing page for Find-A-Book with a book blind date.">
+    <meta name="og:image" content="images/home-preview.jpg">
+    <meta name="og:url" content="https://kelsey-hansel.github.io/wdd231/final-project/index.html">
     <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +21,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/blind-date.js" defer></script>
     <script src="data/spotlight.mjs" type="module" defer></script>
     <script src="scripts/book-card.mjs" type="module" defer></script>
 </head>
@@ -33,9 +39,23 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="home">
         <section id="book-container">
-
+            <h2>Indie Author Spotlight</h2>
+        </section>
+        <section id="blind-book">
+            <h2>Book Blind Date</h2>
+            <div id="blind-date">
+                <p id="description"></p>
+            </div>
+            <button id="open-button"> Book Reveal </button>
+            <dialog id="book-modal">
+                <h4 id="title"></h4>
+                <button id="close-button"> Close </button>
+                <p id="author"></p>
+                <p id="genre"></p>
+                <p>Does it look interesting and worth a try?</p>
+            </dialog>
         </section>
     </main>
     <footer>

@@ -37,17 +37,11 @@
     padding: 10px;
 }
 
-.book-card img {
+.book-card img, .reader-card img {
     grid-area: cover;
     width: 200px;
     padding: 10px;
     justify-self: center;
-}
-
-.reader-card img {
-    grid-area: cover;
-    width: 100px;
-    height: auto;
 }
 
 .genre {
@@ -69,4 +63,117 @@
 #library-container {
     display: grid;
     justify-content: center;
+}
+
+.library {
+    background-color: var(--accent-color1);
+}
+
+.library-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 10px;
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.form-page {
+    background-color: white;
+    padding: 1rem;
+}
+
+form {
+    background-color: var(--accent-color1);
+    display: grid;
+    padding: 1rem;
+    border: 1px solid var(--accent-color1);
+    border-radius: 2rem;
+}
+
+label {
+    padding: 1rem;
+    justify-self: center;
+    align-self: center;
+}
+
+input[type="submit"] {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px;
+}
+
+#thankyou-container {
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.results {
+    padding: 10px;
+}
+
+.results p {
+    padding: 10px;
+}
+
+dialog {
+    border: 1px solid rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 0 3rem #777;
+    margin: 1rem auto;
+    width: 90%;
+    text-align: left;
+}
+
+::backdrop {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+dialog button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 16px;
+    border: 1px solid rgb(0 0 0 / 10%);
+    border-radius: 5px;
+}
+
+dialog h4 {
+    font-size: x-large;
+    padding: 14px;
+}
+
+#blind-book {
+    display: grid;
+    padding: 15px;
+}
+
+#blind-book h2 {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#blind-date {
+    background-color: var(--accent-color1);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#blind-book button {
+    max-width: 120px;
+    justify-self: center;
+    margin: 10px;
+}
+
+.home {
+    padding: 1rem;
 }

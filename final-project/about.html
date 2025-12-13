@@ -4,9 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find-A-Book</title>
-    <meta name="description" content="Landing page for Find-A-Book with book blind date.">
-    <meta name="author" contetn="Kelsey Hansel">
+    <title>About Us</title>
+    <meta name="description" content="About Us page for Find-A-Book with a reader spotlight and newsletter sign-up.">
+    <meta name="author" content="Kelsey Hansel">
+    <meta name="og:title" content="Find-A-Book About Us Page">
+    <meta name="og:description" content="About Us page for Find-A-Book with a reader spotlight and newsletter sign-up.">
+    <meta name="og:image" content="images/about-preview.jpg">
+    <meta name="og:url" content="https://kelsey-hansel.github.io/wdd231/final-project/about.html">
     <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,14 +36,27 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h2>Reader Spotlight:</h2>
+    <main class="form-page">
+        <div>
+            <h2>Newsletter Sign-Up</h2>
+            <form id="newsletter-signup" method="GET" action="thankyou.html">
+                <label for="first-name">First Name <input type="text" id="first-name" name="first-name" required
+                        autocomplete="given-name" title="Please enter first name."> </label>
+                <label for="last-name">Last Name <input type="text" id="last-name" name="last-name" required autocomplete="family-name"
+                        title="Please enter last name."> </label>
+                <label for="email">Email Address <input type="email" id="email" name="email" required autocomplete="email"
+                        placeholder="youremail@website.com" title="Please enter your email."> </label>
+                <label for="fav-genre">Favorite Genre <input type="text" id="fav-genre" name="fav-genre" required
+                        title="Please enter your favorite genre."> </label>
+                <label for="fav-author">Favorite Author <input type="text" id="fav-author" name="fav-author" required
+                        title="Please enter your favorite author."> </label>
+                <label for="submit-button"> <input type="submit" id="submit-button" name="submit-button"
+                        value="Sign-Up"></label>
+            </form>
+        </div>
         <section id="reader-spotlight">
-
+            <h2>Reader Spotlight</h2>
         </section>
-        <form id="newsletter-signup" method="GET" action="thankyou.html">
-
-        </form>
     </main>
     <footer>
         <p>&copy;<span id="currentyear"></span> | Kelsey Hansel | Kansas, United States</p>

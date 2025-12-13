@@ -2,7 +2,7 @@ import { books } from "../data/books.mjs";
 
 const cardContainer = document.querySelector("#library-container");
 
-books.forEach((book) => {
+function makeBookCards(book) {
     let card = document.createElement("div");
     let title = document.createElement("h3");
     let coverImage = document.createElement("img");
@@ -32,4 +32,42 @@ books.forEach((book) => {
     card.appendChild(description);
     card.classList.add("book-card");
     cardContainer.appendChild(card);
+}
+
+const allBooksButton = document.querySelector("#all-books");
+const fantasyButton = document.querySelector("#fantasy-sort");
+const dystopianButton = document.querySelector("#dystopian-sort");
+const romanceButton = document.querySelector("#romance-sort");
+
+books.forEach(makeBookCards);
+
+allBooksButton.addEventListener("click", (event) => {
+    event.preventDefault();
+    cardContainer.innerHTML = "";
+
+    books.forEach(makeBookCards);
+});
+    
+fantasyButton.addEventListener("click", (event) => {
+    event.preventDefault();
+    cardContainer.innerHTML = "";
+
+    const fantasyBooks = books.filter(book => book.genre === "Fantasy");
+    fantasyBooks.forEach(makeBookCards);
+});
+
+dystopianButton.addEventListener("click", (event) => {
+    event.preventDefault();
+    cardContainer.innerHTML = "";
+
+    const dystopianBooks = books.filter(book => book.genre === "Dystopian");
+    dystopianBooks.forEach(makeBookCards);
+});
+
+romanceButton.addEventListener("click", (event) => {
+    event.preventDefault();
+    cardContainer.innerHTML = "";
+
+    const romanceBooks = books.filter(book => book.genre === "Romance");
+    romanceBooks.forEach(makeBookCards);
 });
