@@ -58,4 +58,11 @@
         grid-gap: 1rem;
         padding: 2rem;
     }
+
+    .home {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 1rem;
+        padding: 2rem;
+    }
 }
