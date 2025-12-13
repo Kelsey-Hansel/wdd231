@@ -3,7 +3,6 @@
     --secondary-color: #1f0d03;
     --accent-color1: #AEB7B3;
     --accent-color2: #7E6551;
-    font-family: "Felipa", serif;
     padding: 0;
     margin: 0;
 }
@@ -85,9 +84,5 @@ main {
 h1 {
     text-align: left;
     padding: 0 10px;
-}
-
-header img {
-    width: 40px;
 }
 
